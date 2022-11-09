@@ -78,7 +78,7 @@ const find = () => {
 <template>
   <div id="container">
     <div class="card">
-      <img src="/public/image.png">
+      <img src="./../public/image.png">
       <TextInput @enter="find" type="number" v-model="coor.x" label="x" />
       <TextInput @enter="find" type="number" v-model="coor.y" label="y" class="mt-s" />
       <div>
